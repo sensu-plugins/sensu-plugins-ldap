@@ -22,7 +22,7 @@ script:
 deploy:
   provider: rubygems
   api_key:
-    secure: <REPLACE_ME>
+    secure: YsxGKCmhkHFFdMJSRVRTF0LfyDKwTKBQIL7cRrZSpHfwmVhapV9Kb4kN6CmuvKPMuwBWGqCKUuAyxYiNDUIRHCCAV0biepGj35oe3PIIWrStvyg+JpyGBQmE6vw3lCfYqzvdA2mHIoHgGKlWxpEKyVSaIy7tj6Npkbkrk/noRfZhSh1gorzNtnYqxkeCuq+RrNGwb2ydWuMO5Ae+xxvY4y06EIGvSz0KvlvN7HV5h8ac/apFJy/iPbv8YCRG94kAt1AH2+bKuga291LiUegqlInegGPgZivwLTgzog5/VYJhmhnqNoZqbs6J/HyOtBS6qqozKzLmIW+xIj1nw1W3XcEhVAyfP18jIBGg69EP8MIY22ydbUHzkspzhp+VRJQsKGvbD6Qi+gD7oUaoP/BJpMluT9Dl/5o3a0iJAziqBvu8GUm3OKXSbM+QTjIlfP4aiWovUoG78EzXW4RjZ6ZNccOXvSFuMdsTstiuP1zj0uAVr7PVANxCMjLq4a0SFmCmsJKvoXtgUlJ2rqt5L4NxEeBcSDH7VIYwMlkaQ9Uwylb5Ye2paH1uZVdBoW1mzkWCGcEcD5UmoApgTA//TDQdnEXencEkan6KHJ/jIK7VbCLEGDvoZgTKp3W7JxRWUQka+vrAWTy+q6C0Sh8PcZMOII83jCWceyxkjQ3aXTP0OR4=
   gem: sensu-plugins-ldap
   on:
     tags: true
